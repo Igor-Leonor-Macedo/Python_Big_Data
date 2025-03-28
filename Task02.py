@@ -3,10 +3,10 @@ from pymongo import MongoClient
 
 # 1. Conectar ao MongoDB Atlas
 username = "iglmacedo"
-password = "D69tGgpgOvww99L6"  # Substitua pela sua senha
-cluster_url = "anxiety-depression.g1qe1.mongodb.net"
-database_name = "Anxiety-Depression"  # Substitua pelo nome do seu banco de dados
-collection_name = "minha_colecao"  # Substitua pelo nome da sua coleção
+password = "jIcMEvL245Smi97r"  # Substitua pela sua senha
+cluster_url = "anxietydepressionmental.02yw0ss.mongodb.net"
+database_name = "AnxietyDepression"  # Substitua pelo nome do seu banco de dados
+collection_name = "DepressionAndAnxiety"  # Substitua pelo nome da sua coleção
 
 # Montar a string de conexão
 connection_string = f"mongodb+srv://{username}:{password}@{cluster_url}/?retryWrites=true&w=majority&appName={database_name}"
